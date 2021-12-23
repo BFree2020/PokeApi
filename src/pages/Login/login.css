@@ -1,0 +1,108 @@
+.login-container {
+    width: 100%;
+    height: auto;
+    background: var(--black-opacity);
+    position: absolute;
+    top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-form {
+    padding: 2.6rem 1rem 0rem 1rem;
+    width: 60%;
+    background-color: var(--orange-opacity);
+    margin-top: 8rem;
+    height: auto;
+    text-align: center;
+    min-width: 300px;
+    margin-top: 10rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+  
+  .login-logo {
+    margin-top: 1rem;
+  }
+  
+  .login-form__title {
+    font-size: 3.4rem;
+    margin-bottom: 1.6rem;
+    color: var(--white);
+  }
+  .login-form__subtitle {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-weight: bold;
+    color: var(--dark-orange);
+  }
+  .login-form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .login-form__email,
+  .login-form__password {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 5px;
+    border: solid 1px var(--light-grey);
+    outline: var(--light-orange);
+    margin-bottom: 1rem;
+    max-width: 300px;
+  }
+  .login-form__button {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--dark-orange);
+    color: var(--light-grey);
+    cursor: pointer;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+  }
+  .login-form__btn--google {
+    background-color: var(--white);
+    color: var(--warn-black);
+  }
+  .login-form__btn--facebook {
+    background-color: rgb(34, 170, 248);
+  }
+  .login-form__btn--facebook .fab {
+    font-size: 2rem;
+  }
+  .login-form__button:hover {
+    background-color: var(--light-orange);
+  }
+  .btn-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-icon-container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 1rem;
+  }
+  .login-form__btn--facebook .btn-icon-container {
+    color: var(--white);
+  }
+  
+  .register-suggestion {
+    display: block;
+    color: var(--white);
+  }
+  
+  .register-suggestion a {
+    color: var(--orange);
+    font-weight: bold;
+  }
